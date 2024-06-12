@@ -1,5 +1,5 @@
-document.addEventListener("ContentLoaded", () => {
-  const registerForm = document.querySelector(".login-form");
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".login-form");
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -14,10 +14,10 @@ document.addEventListener("ContentLoaded", () => {
       return;
     }
     const formData = {
-      email: email,
+      login: email,
       password: password
     };
-    console.log(`Login: ${login}, Password: ${password}`);
+    console.log(`Login: ${formData.login}, Password: ${formData.password}`);
     form.reset();
   });
 });
