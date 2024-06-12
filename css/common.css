@@ -12,6 +12,7 @@ body {
   color: #212121;
   line-height: 1.5;
   font-size: 18px;
+  font-weight: 700;
 }
 img {
   width: 100%;
@@ -52,4 +53,10 @@ button {
   border-radius: 7px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-left: 35px;
+}
+.button-color-changer {
+  height: 50px;
+  width: 125px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 8px grey;
 }
