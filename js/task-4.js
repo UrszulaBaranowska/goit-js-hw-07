@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       login: email,
       password: password
     };
-    console.log(`Login: ${formData.login}, Password: ${formData.password}`);
+    console.log(formData);
     form.reset();
   });
 });
